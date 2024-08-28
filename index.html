@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayo</title>
+    
+    <style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        padding: px;
+        background-image: url(image.png); /* Add your image URL here */
+        background-size: cover; /* Cover the entire background with the image */
+        background-position: center; /* Center the image */
+    }
+
+        
+        nav {
+            background-color:   #000000;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+        
+       
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #ffffff;
+        }
+        
+        .nav-logo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            color: white;
+        }
+        
+        nav li {
+            margin-right: 20px;
+            color: white;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            color: #ffffff;
+        }
+        
+        #hero {
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+        }
+        
+        .hero-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        #hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        #hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        #hero button {
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        
+        #hero button:hover {
+            background-color: #000000;
+        }
+        
+        #about {
+            padding: 2em;
+            background-color: #000000; 
+            color: white;
+        }
+        
+        .about-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        
+        }
+        
+        #about h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        #about p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .features-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 2em;
+        }
+
+        .feature {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 0 300px;
+            text-align: center;
+        }
+
+        .feature i {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .cta {
+            background-color:  #2e2d2d;
+            padding: 10px;
+            text-align: center;
+            background-image: url(image.png); 
+            background-size: cover;
+            background-position: center; 
+        }
+
+        .cta h2 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .cta form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cta label {
+            margin-bottom: 10px;
+        }
+
+        .cta input {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 200px;
+        }
+
+        .cta button[type="submit"] {
+            background-color:  #680900;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta button[type="submit"]:hover {
+            background-color: #b90600;
+        }
+        
+        #footer {
+            background-color:   #000000;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+        
+        .footer-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">Dayo Development Company</div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-container">
+            <h1>IMPORTANCE OF WEB DEVELOPMENT</h1>
+            <p>“Great web design without functionality is like a sports car with no engine.</p>
+            <button id="learn-more-btn">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Web Development</h2>
+            <p>"Web development is the art of crafting and sustaining websites and web applications, requiring a diverse set of skills including HTML, CSS, JavaScript, and more. By leveraging web development, you can create immersive and interactive online experiences that captivate users and deliver exceptional user engagement. From e-commerce platforms to blogs and social media sites, web development empowers businesses and individuals to establish a robust online presence, expand their reach, and achieve their objectives. Whether it's building a bespoke website from the ground up or maintaining and updating an existing one, web development is crucial for thriving in today's digital era."</p>
+        </div>
+    </section>
+
+    <section class="features-container">
+        <div class="feature">
+            
+            <h3>Accessibility</h3>
+            <p> A website is often the first point of contact between 
+                a business and its potential customers. A well-designed website enhances a 
+                company’s online presence and makes it accessible to a global audience.
+                 Unlike physical stores, a website is accessible 24/7, allowing businesses to reach 
+                 and engage with customers at any time.</p>
+        </div>
+        <div class="feature">
+           
+            <h3> Competitive Advantage</h3>
+            <p>A unique and well-designed website can set a business apart from its competitors.
+                 In a crowded market, the quality of web development can be a significant differentiator.
+                 Interactive elements, such as blogs, forums, and contact forms, foster customer engagement 
+                 and build a community around a brand.</p>
+        </div>
+        <div class="feature">
+      
+            <h3>Data Collection</h3>
+            <p>Websites can be equipped with analytics tools to track user behavior, providing valuable data 
+                that businesses can use to optimize their strategies and improve services.
+                Web development allows for the creation of personalized user experiences based on data, enhancing customer satisfaction and loyalty.</p>
+        </div>
+        <div class="feature">
+           
+            <h3>Security</h3>
+            <p>With the increasing importance of data protection, web development must incorporate security features to safeguard user information from 
+                breaches and cyberattacks.Proper web development ensures that websites comply with legal requirements and standards, such as GDPR, which is essential for protecting both the business and its customers.</p>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Get Started Today!</h2>
+        <form id="sign-up-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    
+    <footer id="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Dayo Developmental Company</p>
+            <p>Contact us: <a href="mailto:rdayo2016@gmail.com">rdayo2016@gmail.com</p>
+        </div>
+    </footer>
+
+    <script>
+        
+        document.getElementById('learn-more-btn').addEventListener('click', function() {
+            alert('Learn more about web development!');
+        });
+
+        document.getElementById('sign-up-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            
+            console.log(`Name: ${name}, Email: ${email}, Password: ${password}`);
+            alert(`Thank you for signing up, ${name}!`);
+        });
+    </script>
+</body>
+</html>
